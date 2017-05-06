@@ -1,0 +1,89 @@
+%
+% INPUT/OUTPUT ENCODING
+%
+\usepackage{ifpdf}
+\usepackage{ifxetex}
+
+
+\ifpdf
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\fi
+
+%
+% LANGUAGE
+%
+\usepackage[english]{babel}
+
+%
+% BIBLIOGRAPHY
+%
+\usepackage[
+	sorting=none,
+	backend=biber,
+	doi=false,
+	isbn=false]{biblatex}
+
+%
+% TYPOGRAPHY
+%
+
+% Better typography. Not yet fully supported by XeLaTeX
+\usepackage{microtype}
+
+\usepackage[left=3.5cm,right=3.5cm,top=4cm,bottom=4cm]{geometry}
+\usepackage{fourier}
+\usepackage{xspace}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{csquotes}
+\usepackage{epigraph}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{subcaption}
+
+\usepackage{setspace}
+\onehalfspacing
+
+
+%\setlength{\parskip}{1em}
+%\setlength{\parindent}{0em}
+
+%
+% MATH
+%
+
+% General math package
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Package for typesetting SI units
+\usepackage{siunitx}
+\DeclareSIUnit{\nothing}{\relax}
+
+%
+% TIKZ
+%
+
+% Package used for drawing circuit diagrams
+\usepackage{circuitikz}
+
+% Package used for plotting directly within LaTeX
+\usepackage{pgfplots}
+\usepgfplotslibrary{units}
+\pgfplotsset{compat=1.10}
+
+
+%
+% IMPORTS
+%
+
+% Cleveref has to be the last package
+\usepackage{cleveref}
+
+%
+% ADDITIONAL MATH COMMANDS
+%
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}

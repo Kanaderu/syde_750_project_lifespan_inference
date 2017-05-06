@@ -1,2 +1,4 @@
-# syde_750_project_lifespan_inference
-Neurobiological model implementing lifespan inference for the UWaterloo SYDE 750 course
+# Learning probability distributions for lifespan inference
+## Project for the UWaterloo course SYDE 750
+
+*Note:* To re-run the experiments you need to download a datafile from the Human Mortality Database. See `code/data/README` for more details.
