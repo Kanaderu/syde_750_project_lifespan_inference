@@ -3,8 +3,8 @@
 
 ![Probability distribution representation and learning network overview](https://rawgithub.com/astoeckel/syde_750_project_lifespan_inference/master/doc/media/diag_px.svg)
 
-* [Project Report](https://github.com/astoeckel/syde_750_project_lifespan_inference/raw/master/doc/2017_04_syde_750_project.pdf)
-* [Presentation](https://github.com/astoeckel/syde_750_project_lifespan_inference/raw/master/doc/presentation/2017_05_05_syde_750_astoeckel_project.pdf)
+* [Project Report](https://github.com/astoeckel/syde_750_project_lifespan_inference/raw/master/doc/2017_04_syde_750_project.pdf) (PDF, 1.0 MB)
+* [Presentation](https://github.com/astoeckel/syde_750_project_lifespan_inference/raw/master/doc/presentation/2017_05_05_syde_750_astoeckel_project.pdf) (PDF 2.4 MB)
 
 ## Abstract
 
